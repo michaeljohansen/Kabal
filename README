@@ -1,0 +1,25 @@
+
+2009 (c) Michael Johansen, Anja Rønning, Cathrine Holm
+
+Epost: michael@informatikk.org
+Universitet: Norges teknisk-naturvitenskapelige universitet (NTNU)
+Emne: IT2103 - Objektorientert systemutvikling
+
+--------------------------------------------------------------
+Advarsel og ansvarsfraskrivelse: Bruk dette programmet på din
+egen risiko. Databaseforbindelsen er ikke sikret på noen måte.
+--------------------------------------------------------------
+
+Hvordan man bruker programmet:
+
+1. Du trenger en MySQL database, med følgende tabell:
+	id int auto increment not null,
+	navn text,
+	trekk int,
+	kort int,
+	kommentar text,
+
+2. Du må skrive inn tilkoblingsinformasjon i "kabal/MySQL.java"
+
+3. Ha det gøy!
+
